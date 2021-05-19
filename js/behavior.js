@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         else{
             thumbnailElement.className="small";
         }
-        
       });
+      
 });
 
 
