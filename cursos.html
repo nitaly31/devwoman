@@ -6,39 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://www.holbertonschool.com/level2/school.css" rel="stylesheet">
     <link type="text/CSS" href="css/styles.css" rel="stylesheet">
+    <script src="js/behavior.js"></script>
     <title>DevWoman</title>
 </head>
-<body>
+<body class="works_on_smartphone">
     <header>
+        <div class="right" >
+            <div id="fb-root"></div>
+<div class="fb-share-button" data-href="http://3.90.44.108/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3.90.44.108%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+<a href="https://web.archive.org/web/20160617145345/https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
         <div>
             <nav class="menu">
                 <ul class="menu-list">
-                    <li><img src="img/DevWoman-logo.png" style="width: 300px;" alt="logo-devwoman"/></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tweer.html">Tweet</a></li>
-                    <li><a href="bootcamp.html">BootCamp</a></li>
+                    <img src="img/DevWoman-logo-black.svg" class="logo" style="width: 300px;" alt="logo-devwoman"/>
                     <li><a href="cursos.html">Free courses</a></li>
+                    <li><a href="bootcamp.html">BootCamp</a></li>
+                    <li><a href="tweet.html">Tweet</a></li>
+                    <li><a href="index.html">Home</a></li>   
                 </ul>
             </nav>
         </div>
     </header>
-    <main style="margin: 10px 50px 20px 50px;">
+    <main>
         <article>
-            <p>
-                contiene el contenido de tu página web: textos, enlaces, imágenes, tweets,… Esta es la parte de index.html y tweets.html que ya has escrito, y ahora debes escribirlo como quieras para las otras páginas 
-            </p>
+            <img src="img/free-programming.jpg" alt="programming-free">
+            <h1>Free Courses to Learn to Program</h1>
+            <p>There are several pages that teach you the program from scratch, there are people who without investing a lot of money learn infinities of things, but of course, doing courses like this merits having a high degree of commitment and a lot of discipline, it is not impossible but it does not take away the difficulty .</p>
+            <p>As much as we want to learn new things, our motivation goes down, either due to time or the difficulties of the path to learn, and if we do not have an engine that drives us (in this case a monetary investment) then we put aside what we want to learn and we deviate from the path. If you are one of those people who can self-motivate without making monetary investments, then you should finish reading this because then I will mention several popular pages to learn and practice programming:</p>
+            <table class="tabla-1">
+                <tr>
+                    <td>
+                        <img src="img/pa-4-img-1.svg" alt="logo-bitdegree" class="img-1">
+                        <br></br>
+                        1. BitDegree: Offers a ton of free courses ranging from programming to game development. There are a wide variety of programming languages included, but the most popular are listed below: HTML, CSS, PHP, JavaScript, SQL, JQuery
+                    </td>
+                    <td>
+                        <img src="img/pa-4-img-2.svg" alt="logo-coursera" class="img-2">
+                        <br></br>
+                        2. Coursera: Offers courses, tutorials and programming resources, taught by professors from leading universities. You'll find hundreds of different programming-related courses to choose from. You will find a variety of courses available such as: Python, Java, HTML and CSS, IoT (Internet of Things) Programming, C, Introduction to programming
+                    </td>
+                    <td>
+                        <img src="img/pa-4-img-3.png" alt="logo-code-academy" class="img-3">
+                        <br></br>
+                        3. Code Academy: It is one of the most popular sites to learn to program for free, more than 24 million people have learned to program using this platform. Some of the languages you can learn at Code Academy include: HTML, JavaScript, CSS, jQuery, PHP, Python.
+                    </td>
+                </tr>
+            </table>
+            <table class="tabla-2">
+                <br></br>
+                <tr>
+                    <td>
+                        <img src="img/pa-4-img-4.svg" alt="logo-edx" class="img-4">
+                        <br></br>
+                        4. edX: It is a huge open source higher education learning platform, currently has a network of more than 5 million students. There you will find tutorials that teach you languages and skills such as: HTML and CSS, Java, jQuery, C ++, C #, Python, SQL, Mobile Application Development.
+                    </td>
+                    <td>
+                        <img src="img/pa-4-img-5.png" alt="logo-khan-academy" class="img-5">
+                        <br></br>
+                        5. Khan Academy: It is a huge online learning platform. It's a great place to start gaining a wealth of programming-related knowledge and skills. You will find courses and tutorials that go from the basic principles of computer programming to advanced applications. You will be able to learn programming languages such as: HTML, CSS, JavaScript, Databases
+                    </td>
+                    <td>
+                        <img src="img/pa-4-img-6.png" alt="logo-codewars" class="img-6">
+                        <br></br>
+                        6. Codewars: Teaches you the desired programming language through a series of challenges. These programming challenges are based on martial arts as each challenge is known as a kata. Some of the languages you can learn at Codewars include: Java, JavaScript, C #, Ruby, Python, SQL
+                    </td>
+                </tr>
+            </table>
         </article>
         <aside>
-            <p>
-                contiene un solo párrafo, por ahora solo lee "marcador de posición para agregar hilo de comentarios más tarde".
-            </p>
+            <div id="disqus_thread"></div>
+<script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://devwoman-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </aside>
     </main>
     <footer>
-    <p style="color:white; text-align: center; padding-top: 35px;">
-        Made by Geraldine Meneses for 
-        <a class="holberton" href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
-    </p>
+        <p>
+            Made by Geraldine Meneses for <a class="holberton" href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+        </p>
     </footer>
+    <script id="dsq-count-scr" src="//devwoman-1.disqus.com/count.js" async></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="qmr1lTuz"></script>
 </body>
 </html>

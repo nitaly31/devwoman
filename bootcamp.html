@@ -6,39 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://www.holbertonschool.com/level2/school.css" rel="stylesheet">
     <link type="text/CSS" href="css/styles.css" rel="stylesheet">
+    <script src="js/behavior.js"></script>
     <title>DevWoman</title>
 </head>
-<body>
+<body class="works_on_smartphone">
     <header>
+        <div class="right" >
+            <div id="fb-root"></div>
+<div class="fb-share-button" data-href="http://3.90.44.108/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3.90.44.108%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+<a href="https://web.archive.org/web/20160617145345/https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
         <div>
             <nav class="menu">
                 <ul class="menu-list">
-                    <li><img src="img/DevWoman-logo.png" style="width: 300px;" alt="logo-devwoman"/></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tweer.html">Tweet</a></li>
-                    <li><a href="bootcamp.html">BootCamp</a></li>
+                    <img src="img/DevWoman-logo-black.svg" class="logo" style="width: 300px;" alt="logo-devwoman"/>
                     <li><a href="cursos.html">Free courses</a></li>
+                    <li><a href="bootcamp.html">BootCamp</a></li>
+                    <li><a href="tweet.html">Tweet</a></li>
+                    <li><a href="index.html">Home</a></li>   
                 </ul>
             </nav>
         </div>
     </header>
-    <main style="margin: 10px 50px 20px 50px;">
+    <main>
         <article>
-            <p>
-                contiene el contenido de tu página web: textos, enlaces, imágenes, tweets,… Esta es la parte de index.html y tweets.html que ya has escrito, y ahora debes escribirlo como quieras para las otras páginas 
-            </p>
+                <div>
+                        <ul class="hori">
+                            <img src="img/bootcamp-grupo.jpg" alt="bootcamp-grupo">
+                            <h1>What exactly is a Bootcamp?</h1>
+                            <li> Bootcamps are intensive courses that provide students with excellent preparation to jump into the job market. The main characteristics are the small classes and a very concentrated syllabus.
+                                <br></br>
+                                Two and a half months can go a long way. Even to learn to program from scratch and get a job in a technology company. That is the philosophy of bootcamps, intensive nine or ten week programming courses designed to provide companies with programmers trained according to the needs of the moment. The concept emerged in the United States in February 2012 and landed in Spain a year later.</li>
+                                <br></br>
+                                <img src="img/bootcamp.jpg" alt="programming">
+                            <h2>Why bet on a Bootcamp?</h2>
+                            <li>During the last two decades we have seen almost everything around us change. The new condition in the era of digital transformation is to renew or die. This has made companies demand new professional profiles that barely 15 years ago did not exist.
+                                <br></br>
+                                The reason for being of the Bootcamps is to offer a totally updated training adapted to the needs of the current labor market in a few months.
+                                    <br></br>
+                                    Those known as millennials are no longer looking for a job for life. Quite the opposite. They want to live different experiences and get to know new sectors. But to adapt to the needs of the market, they need to specialize or update knowledge in the shortest possible time. This requirement is one of the great advantages of Bootcamps compared to masters, degrees or training cycles.</li>
+                            <h3>Where to study a Bootcamp?</h3>
+                            <li class="parrafo-bootcamp">There are several companies that offer BotCamp in Peru but where your server is applying is to study at the Holberton School company that opened its doors in 2016, the most innovative companies in the market have noticed. Graduates have found jobs on LinkedIn, Google, Tesla, Docker, Apple, Dropbox, Facebook, Pinterest, Genentech, Cisco, IBM, and more.
+                                <br></br>
+                                <img src="img/holberton-school.jpg" alt="School-holberton" class="school">
+                                Holberton School también ha abierto varios campus alrededor del mundo, y uno de esos campus esta en Perú de formato virtual y su enfoque único, exitoso y escalable para la educación tecnológica ha atraído la atención de los principales inversionistas de Silicon Valley.
+                                <br></br>
+                                The school is inspired by Frances Elizabeth "Betty" Snyder Holberton (1917-2001) was one of the six programmers of the ENIAC, the first general-purpose programmable electronic digital computer, created in 1943 by the United States Army.
+                                <br></br>
+                                Betty Holberton ayudó a crear lo que luego se convertiría en el moderno desarrollo de software, participó también en la creación y el diseño de los lenguajes de programación FORTRAN y COBOL.
+                            </li>
+                        </ul> 
+                </div>
         </article>
         <aside>
-            <p>
-                contiene un solo párrafo, por ahora solo lee "marcador de posición para agregar hilo de comentarios más tarde".
-            </p>
+            <div id="disqus_thread"></div>
+<script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://devwoman-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </aside>
     </main>
     <footer>
-    <p style="color:white; text-align: center; padding-top: 35px;">
-        Made by Geraldine Meneses for 
-        <a class="holberton" href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
-    </p>
+        <p>
+            Made by Geraldine Meneses for <a class="holberton" href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+        </p>
     </footer>
+    <script id="dsq-count-scr" src="//devwoman-1.disqus.com/count.js" async></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="qmr1lTuz"></script>
 </body>
 </html>
